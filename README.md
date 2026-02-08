@@ -1,6 +1,6 @@
-# 🏦 GrameenLoan - Microloan Management System
+# 🏦 SideBySide Loans - Microloan Management System
 
-![GrameenLoan Banner](./screenshot/hero.png)
+![SideBySide Loans Banner](./screenshot/hero.png)
 
 <div align="center">
 
@@ -18,7 +18,7 @@
 
 ## 🎯 About the Project
 
-**GrameenLoan** is a comprehensive microfinance management system designed to streamline the loan application, approval, and repayment process. Built with the MERN stack, it provides a secure, user-friendly platform for borrowers to apply for loans and administrators to manage applications efficiently.
+**SideBYSide Loans** is a comprehensive microfinance management system designed to streamline the loan application, approval, and repayment process. Built with the MERN stack, it provides a secure, user-friendly platform for borrowers to apply for loans and administrators to manage applications efficiently.
 
 ### 🎬 Live Demo
 👉 **[Visit Live Website](https://grameen-loan-c.netlify.app)**
@@ -39,7 +39,6 @@
 - ✅ **Apply Online** - Submit loan applications with document upload
 - ✅ **Application Tracking** - Real-time status updates (Pending/Approved/Rejected)
 - ✅ **Secure Payments** - Stripe integration for application fees
-- ✅ **Profile Management** - Update personal information and view loan history
 - ✅ **Dark/Light Mode** - Seamless theme switching for comfortable viewing
 
 ### 🛡️ **For Admins:**
@@ -114,12 +113,11 @@
 
 ## 👨‍💻 Author
 
-**Tumpa Das**
+**Sajjad Hossain JIM**
 
-- GitHub: [@itstumpa](https://github.com/itstumpa)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/itstumpa)
-- Portfolio: [Portfolio](https://itstumpa.netlify.app)
-- Email: itstumpaa@gmail.com
+- GitHub: [@sajjadjim](https://github.com/sajjadjim)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/sajjadjim)
+- Portfolio: [Portfolio](https://sajjadjim.netlify.app)
 
 ---
 
@@ -135,6 +133,6 @@
 
 **Made with ❤️ for the community**
 
-[Back to Top](#-grameenloan---microloan-management-system)
+[Back to Top](#-SideBYSide Loans---microloan-management-system)
 
 </div>
