@@ -9,16 +9,12 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import  AuthProvider from "./contexts/AuthProvider.jsx";
 import { ThemeProvider } from './components/ThemeContext';
 import './index.css';
-
-
 // Create a client
 const queryClient = new QueryClient()
-
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
      <ThemeProvider>
-
 
     <QueryClientProvider client={queryClient}>
        <AuthProvider>
@@ -28,7 +24,6 @@ createRoot(document.getElementById('root')).render(
 </AuthProvider>
     </QueryClientProvider>
      </ThemeProvider>
-
 
   </StrictMode>,
 )
