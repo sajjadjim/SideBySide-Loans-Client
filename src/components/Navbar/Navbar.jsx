@@ -57,8 +57,8 @@ const Navbar = () => {
           >
             {/* Logo Icon */}
             <div className="relative">
-              <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-sky-500 rounded-lg flex items-center justify-center shadow-lg">
-                <span className="text-white font-bold text-xl">G</span>
+              <div className="w-10 h-10 bg-linear-to-br from-blue-600 to-sky-500 rounded-lg flex items-center justify-center shadow-lg">
+                <span className="text-white font-bold text-xl">L</span>
               </div>
               <div className="absolute -bottom-1 -right-1 w-3 h-3 bg-green-500 rounded-full border-2 border-white"></div>
             </div>
@@ -72,7 +72,7 @@ const Navbar = () => {
                   SideBySide Loan
                 </h1>
                 <p className={`text-xs ${isDark ? 'text-slate-400' : 'text-slate-500'}`}>
-                  Empowering Communities
+                  Give your dreams a boost with SideBySide Loan
                 </p>
               </div>
             </NavLink>
@@ -84,9 +84,9 @@ const Navbar = () => {
             <NavLink
               to="/"
               className={({ isActive }) => 
-                `font-semibold transition-colors ${
+                `font-semibold transition-colors text-white bg-blue-600  px-3 py-1   rounded-3xl shadow-md  duration-300 ${
                   isActive 
-                    ? isDark ? 'text-blue-400' : 'text-blue-600'
+                    ? isDark ? 'text-blue-400' : 'text-green-600 bg-linear-to-r from-yellow-600 to-orange-700  transition-all'
                     : isDark 
                       ? 'text-slate-300 hover:text-white' 
                       : 'text-slate-600 hover:text-slate-900'
@@ -99,9 +99,9 @@ const Navbar = () => {
             <NavLink
               to="/all-loans"
               className={({ isActive }) => 
-                `font-semibold transition-colors ${
+                `font-semibold transition-colors text-white bg-blue-600  px-3 py-1   rounded-3xl shadow-md  duration-300 ${
                   isActive 
-                    ? isDark ? 'text-blue-400' : 'text-blue-600'
+                    ? isDark ? 'text-blue-400' : 'text-blue-600 bg-linear-to-r from-yellow-600 to-orange-700  transition-all'
                     : isDark 
                       ? 'text-slate-300 hover:text-white' 
                       : 'text-slate-600 hover:text-slate-900'
@@ -116,9 +116,9 @@ const Navbar = () => {
               <NavLink
                 to="/dashboard"
                 className={({ isActive }) => 
-                  `font-semibold transition-colors ${
+                  `font-semibold transition-colors text-white bg-blue-600  px-3 py-1   rounded-3xl shadow-md  duration-300${
                     isActive 
-                      ? isDark ? 'text-blue-400' : 'text-blue-600'
+                      ? isDark ? 'text-blue-400' : 'text-blue-600 bg-linear-to-r from-yellow-600 to-orange-700  transition-all'
                       : isDark 
                         ? 'text-slate-300 hover:text-white' 
                         : 'text-slate-600 hover:text-slate-900'
@@ -135,9 +135,9 @@ const Navbar = () => {
                 <NavLink
                   to="/about"
                   className={({ isActive }) => 
-                    `font-semibold transition-colors ${
+                    `font-semibold transition-colors text-white bg-blue-600  px-3 py-1   rounded-3xl shadow-md  duration-300${
                       isActive 
-                        ? isDark ? 'text-blue-400' : 'text-blue-600'
+                        ? isDark ? 'text-blue-400' : 'text-blue-600 bg-linear-to-r from-yellow-600 to-orange-700  transition-all'
                         : isDark 
                           ? 'text-slate-300 hover:text-white' 
                           : 'text-slate-600 hover:text-slate-900'
@@ -150,9 +150,9 @@ const Navbar = () => {
                 <NavLink
                   to="/contact"
                   className={({ isActive }) => 
-                    `font-semibold transition-colors ${
+                    `font-semibold transition-colors text-white bg-blue-600  px-3 py-1   rounded-3xl shadow-md  duration-300${
                       isActive 
-                        ? isDark ? 'text-blue-400' : 'text-blue-600'
+                        ? isDark ? 'text-blue-400' : 'text-blue-600 bg-linear-to-r from-yellow-600 to-orange-700  transition-all'
                         : isDark 
                           ? 'text-slate-300 hover:text-white' 
                           : 'text-slate-600 hover:text-slate-900'

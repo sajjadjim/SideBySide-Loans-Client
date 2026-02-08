@@ -22,8 +22,8 @@ const About = () => {
 
   // ========== STATISTICS DATA ==========
   const stats = [
-    { icon: Users, value: '50,000+', label: 'Active Borrowers' },
-    { icon: TrendingUp, value: '$5M+', label: 'Total Funded' },
+    { icon: Users, value: '50,000+', label: 'Active Clients' },
+    { icon: TrendingUp, value: '$58M+', label: 'Total Funded' },
     { icon: Award, value: '98%', label: 'Success Rate' },
     { icon: Globe, value: '25+', label: 'Districts Covered' }
   ];
@@ -118,7 +118,7 @@ const About = () => {
     { year: '2015', event: 'Reached 10,000 active borrowers across Bangladesh' },
     { year: '2018', event: 'Launched digital loan application platform' },
     { year: '2020', event: 'Expanded to 25+ districts nationwide' },
-    { year: '2023', event: 'Achieved 50,000+ borrowers and $5M+ in total funding' },
+    { year: '2023', event: 'Achieved 50,000+ borrowers and  in total funding' },
     { year: '2024', event: 'Introduced AI-powered credit scoring system' }
   ];
 

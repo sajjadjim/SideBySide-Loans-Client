@@ -204,8 +204,8 @@ const Brands = () => {
 
           <div className="relative">
             {/* Gradient Overlays */}
-            <div className="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-[var(--bg)] to-transparent z-10" />
-            <div className="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-[var(--bg)] to-transparent z-10" />
+            <div className="absolute left-0 top-0 bottom-0 w-20 bg-linear-to-r from-[var(--bg)] to-transparent z-10" />
+            <div className="absolute right-0 top-0 bottom-0 w-20 bg-linear-to-l from-[var(--bg)] to-transparent z-10" />
 
             {/* Scrolling Container */}
             <div
@@ -224,8 +224,8 @@ const Brands = () => {
               ].map((partner, idx) => (
                 <motion.div
                   key={idx}
-                  whileHover={{ scale: 1.1, y: -5 }}
-                  className="flex-shrink-0 w-32 h-20 rounded-xl p-4 flex items-center justify-center"
+                  whileHover={{ scale: 1.01, y: -5 }}
+                  className="shrink-0 cursor-pointer w-32 h-20 rounded-xl p-4 flex items-center justify-center"
                   style={{
                     backgroundColor: "var(--surface)",
                     border: "2px solid var(--border)",
@@ -234,7 +234,7 @@ const Brands = () => {
                   <img
                     src={partner.logo}
                     alt={partner.name}
-                    className="max-w-full max-h-full object-contain grayscale hover:grayscale-0 transition-all"
+                    className="max-w-full rounded-3xl  max-h-full object-contain grayscale hover:grayscale-0 transition-all"
                     onError={(e) => {
                       e.target.onerror = null;
                       e.target.src = `https://ui-avatars.com/api/?name=${partner.name}&background=random`;
@@ -279,7 +279,7 @@ const Brands = () => {
               >
                 {/* Gradient Background */}
                 <div
-                  className={`absolute inset-0 bg-gradient-to-br ${cobrand.gradient}`}
+                  className={`absolute inset-0 bg-linear-to-br ${cobrand.gradient}`}
                 />
 
                 {/* Content */}
@@ -299,7 +299,7 @@ const Brands = () => {
                   <h4 className="text-xl font-bold mb-3">{cobrand.title}</h4>
 
                   <div className="flex items-start gap-2 mb-4">
-                    <CheckCircle className="w-5 h-5 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="w-5 h-5 shrink-0 mt-0.5" />
                     <p className="text-sm font-semibold">{cobrand.offer}</p>
                   </div>
 
@@ -314,7 +314,7 @@ const Brands = () => {
 
                 {/* Shine Effect on Hover */}
                 <motion.div
-                  className="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent opacity-0 group-hover:opacity-20"
+                  className="absolute inset-0 bg-linear-to-r from-transparent via-white to-transparent opacity-0 group-hover:opacity-20"
                   animate={{
                     x: ["-100%", "100%"],
                   }}

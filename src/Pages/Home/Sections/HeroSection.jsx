@@ -244,7 +244,7 @@ const HeroSection = () => {
                 isDark ? "text-blue-400" : "text-blue-600"
               }`}
             >
-              $5M+
+              $58M+
             </p>
             <p
               className={`text-sm ${
@@ -287,7 +287,7 @@ const HeroSection = () => {
                 isDark ? "text-slate-400" : "text-slate-600"
               }`}
             >
-              Avg Processing
+              Processing Time
             </p>
           </div>
 
@@ -305,7 +305,7 @@ const HeroSection = () => {
                 isDark ? "text-slate-400" : "text-slate-600"
               }`}
             >
-              Happy Borrowers
+              Happy Clients
             </p>
           </div>
         </motion.div>
