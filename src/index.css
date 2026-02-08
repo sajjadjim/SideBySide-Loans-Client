@@ -1,0 +1,134 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap'); */
+
+/* LIGHT MODE */
+:root {
+  /* Primary Colors */
+  --primary: #1E3A8A;
+    /* --primary: #8a641e; */
+  --secondary: #0EA5E9;
+  /* --secondary: #0ee986; */
+  --accent: #F59E0B;
+  
+  /* Background Colors */
+  --bg: #F8FAFC;
+  --surface: #FFFFFF;
+  
+  /* Text Colors */
+  --text-primary: #1E293B;
+  --text-secondary: #64748B;
+  --text-third: #ffffff;
+  
+  /* Border Colors */
+  --border: #E2E8F0;
+  
+  /* Status Colors */
+  --success: #10B981;
+  --error: #DC2626;
+}
+
+/* DARK MODE  */
+[data-theme="dark"] {
+  /* Primary Colors */
+  --primary: #3B82F6;
+  --secondary: #0EA5E9;
+  --accent: #FBBF24;
+  
+  /* Background Colors */
+  --bg: #0F172A;
+  --surface: #1E293B;
+  
+  /* Text Colors */
+  --text-primary: #F1F5F9;
+  --text-secondary: #94A3B8;
+  
+  /* Border Colors */
+  --border: #334155;
+  
+  /* Status Colors */
+  --success: #10B981;
+  --error: #EF4444;
+}
+
+/* GLOBAL */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg);
+  color: var(--text-primary);
+  line-height: 1.6;
+}
+
+/*  BUTTON  */
+/* Primary Button */
+.btn-primary {
+  background-color: var(--primary);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #1E40AF;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(30, 58, 138, 0.2);
+}
+
+/* Secondary Button */
+.btn-secondary {
+  background-color: var(--secondary);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-secondary:hover {
+  background-color: #0284C7;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(14, 165, 233, 0.2);
+}
+
+/* Outline Button */
+.btn-outline {
+  background-color: transparent;
+  color: var(--primary);
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  border: 2px solid var(--primary);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-outline:hover {
+  background-color: var(--primary);
+  color: white;
+  transform: translateY(-2px);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+input, textarea, select {
+  max-width: 100%;
+}
